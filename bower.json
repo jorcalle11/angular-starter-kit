@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap-angular",
+  "description": "Directory structure for angular app",
+  "main": "gulpfile.babel.js",
+  "authors": [
+    "Jorge Calle <jorcalle11@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Angular",
+    "Component",
+    "Gulp"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8"
+  }
+}

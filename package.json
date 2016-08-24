@@ -1,0 +1,26 @@
+{
+  "name": "bootstrap-angular",
+  "version": "1.0.0",
+  "description": "Directory structure for angular app",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "keywords": [
+    "Angular",
+    "Component",
+    "Gulp"
+  ],
+  "author": "Jorge Calle <jorcalle11@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-preset-es2015": "^6.13.2",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-inject": "^4.1.0",
+    "run-sequence": "^1.2.2",
+    "stream-series": "^0.1.1",
+    "wiredep": "^4.0.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "camelcase":true,
+  "eqeqeq":true,
+  "immed":true,
+  "latedef":true,
+  "undef":true,
+  "strict":true,
+  "esversion":5,
+  "browser":true,
+  "quotmark":"single"
+}
