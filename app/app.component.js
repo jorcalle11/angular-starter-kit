@@ -6,10 +6,11 @@
     .component('root',{
       template: `
         <header>
-          <h2>Bootstrap Angular</h2>
+          <h2 class="title">Bootstrap Angular</h2>
         </header>
         <main>
-          <p>Componente Principal</p>
+          <h3>Principal</h3>
+          <p>Dale vida a tu app, comienza a crear componentes :)</p>
         </main>
         <footer>
           <h5>Jorge Calle</h5>

@@ -5,7 +5,7 @@ import paths from './paths';
 
 const tarjet  = gulp.src(paths.html[0]);
 const head    = gulp.src(paths.entry, {read: false})
-const sources = gulp.src([paths.js,'!'+paths.entry],{read: false});
+const sources = gulp.src([paths.js,'!'+paths.entry,paths.styles.css],{read: false});
 
 export default () => {
   return tarjet
