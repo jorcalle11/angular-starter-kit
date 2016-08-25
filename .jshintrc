@@ -5,7 +5,10 @@
   "latedef":true,
   "undef":true,
   "strict":true,
-  "esversion":5,
+  "esversion":6,
   "browser":true,
-  "quotmark":"single"
+  "quotmark":"single",
+  "globals" : {
+    "angular":true
+  }  
 }

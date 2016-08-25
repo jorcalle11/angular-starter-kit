@@ -3,5 +3,5 @@ import paths from './paths';
 
 export default () => {
   gulp.watch(paths.html,['livereloadHTML']);
-  gulp.watch([paths.js], ['inject','livereloadHTML']);
+  gulp.watch([paths.js], ['lint-js','inject','livereloadHTML']);
 };

@@ -4,7 +4,8 @@
   "description": "Directory structure for angular app",
   "main": "gulpfile.babel.js",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "postinstall": "bower install"
   },
   "keywords": [
     "Angular",
@@ -19,6 +20,9 @@
     "gulp": "^3.9.1",
     "gulp-connect": "^5.0.0",
     "gulp-inject": "^4.1.0",
+    "gulp-jshint": "^2.0.1",
+    "jshint": "^2.9.3",
+    "jshint-stylish": "^2.2.1",
     "run-sequence": "^1.2.2",
     "stream-series": "^0.1.1",
     "wiredep": "^4.0.0"
