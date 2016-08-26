@@ -1,5 +1,6 @@
 export default {
   root: './',
+  bower: './bower.json',
   entry: 'app/app.js',
   html: ['./index.html','./app/**/*.html'],
   js: './app/**/*.js',
