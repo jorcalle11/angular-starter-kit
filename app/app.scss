@@ -10,10 +10,11 @@ $secondary-text: #757575;
 $divider-text: #BDBDBD;
 
 $font-big: 2em;
+$font-small: 1em;
 $font-family-lato : 'Lato', sans-serif;
 
 html {
-  font-size: 16px;
+  font-size: 15px;
   height: 100%;
 }
 
@@ -29,10 +30,8 @@ body {
   flex-direction: column;
 }
 
-header {
-  background: $dark-primary-color;
-  color: $text-icons;
-  padding: 2rem;  
+nav {
+  background: $dark-primary-color !important;
 }
 
 main {
@@ -42,15 +41,15 @@ main {
 }
 
 footer {
-  background: $primary-color;
-  color: $text-icons;
-  padding: 1rem;
-  text-align: center;
-  margin-top: auto;
+  background-color: $primary-color !important;
 }
 
 .title {
   margin: 0;
   text-align: center;
   font-size: $font-big;
+}
+
+.font-small {
+  font-size: $font-small;
 }
