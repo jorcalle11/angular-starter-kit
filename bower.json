@@ -21,6 +21,7 @@
   ],
   "dependencies": {
     "angular": "^1.5.8",
-    "materialize": "^0.97.7"
+    "materialize": "^0.97.7",
+    "angular-ui-router": "^0.3.1"
   }
 }

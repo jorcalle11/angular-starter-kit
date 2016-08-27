@@ -14,7 +14,7 @@
   NavbarController.$inject = [];
   function NavbarController() {
     var $ctrl = this;
-    $(".button-collapse").sideNav();
+    $('.button-collapse').sideNav();
     
     // $ctrl.$onInit = function() { };
     // $ctrl.$onChanges = function(changesObj) { };

@@ -1,0 +1,47 @@
+[
+  {
+    "name": {
+      "title": "mr",
+      "first": "romain",
+      "last": "hoogmoed"
+    },
+    "login":{
+      "username": "lazyduck408"
+    },
+    "email": "romain.hoogmoed@example.com",
+    "picture":{
+      "medium":"https://randomuser.me/api/portraits/men/83.jpg"
+    },
+    "phone": "(656)-976-4980"
+  },
+  {
+    "name": {
+      "title": "mr",
+      "first": "william",
+      "last": "petersen"
+    },
+    "login":{
+      "username": "whitebutterfly815"
+    },
+    "email": "william.petersen@example.com",
+    "picture": {
+      "medium":"https://randomuser.me/api/portraits/men/98.jpg"
+    },
+    "phone": "21595037"
+  },
+  {
+    "name": {
+      "title": "mr",
+      "first": "joscha",
+      "last": "steiner"
+    },
+    "login": {
+      "username": "organicbutterfly874"
+    },
+    "email": "joscha.steiner@example.com",
+    "picture": {
+      "medium":"https://randomuser.me/api/portraits/men/82.jpg"
+    },
+    "phone": "0164-4653897"
+  }
+]

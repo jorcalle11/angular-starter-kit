@@ -1,0 +1,10 @@
+@import '../../../app';
+
+.border-bottom {
+  border-bottom :1px solid $divider-text !important;
+}
+
+.pointer {
+  cursor: pointer;
+  color: $accent-color;
+}

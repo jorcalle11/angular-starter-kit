@@ -1,0 +1,10 @@
+<li class="collection-item avatar border-bottom">
+  <img ng-src="{{$ctrl.user.picture.medium}}" alt="$ctrl.user.picture.medium" class="circle">
+  <span class="title">{{$ctrl.user.name.first}} {{$ctrl.user.name.last}}</span>
+  <p>{{$ctrl.user.login.username}}<br>
+      {{$ctrl.user.email}}
+  </p>
+  <span class="secondary-content pointer" ng-click="$ctrl.like($ctrl.user)">
+    <i class="material-icons">thumb_up</i>
+  </span>
+</li>

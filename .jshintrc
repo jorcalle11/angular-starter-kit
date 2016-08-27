@@ -9,6 +9,7 @@
   "browser":true,
   "quotmark":"single",
   "globals" : {
-    "angular":true
+    "angular":true,
+    "$":true
   }  
 }
