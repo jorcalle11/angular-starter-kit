@@ -19,6 +19,7 @@ gulp.task('lint-js', lint);
 gulp.task('sass', sass);
 gulp.task('templates',templates);
 
+// Ejecuta las tareas en forma secuencial.
 gulp.task('sequence',(callback) => {
   sequence('bower','sass','templates','inject','lint-js','watch',callback);
 });

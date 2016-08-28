@@ -6,13 +6,13 @@ var del = require('del');
 
 gulp.task('default',['sequence']);
 gulp.task('minify-files', prod.minify);
-gulp.task('copy-index.html',prod.copyIndexHTML);
 gulp.task('copy', prod.copy);
 
 gulp.task('sequence', (callback) => {
-  sequence('clean','copy-index.html','copy','minify-files',callback);
-})
+  sequence('clean','copy','minify-files',callback);
+});
 
+// Elimina el directorio de producción
 gulp.task('clean', () => {
   del.sync(['./dist'])
 });

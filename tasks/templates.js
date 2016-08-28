@@ -8,6 +8,7 @@ const options = {
   standalone: true
 };
 
+// Compila las vistas parciales a Javascript para ser inyectadas por Angular y minifica el codigo.
 export default () => {
   return gulp.src(paths.html[1])
     .pipe(templateCache(options))

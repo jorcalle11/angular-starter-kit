@@ -7,6 +7,7 @@ const options = {
   outputStyle: 'compressed'
 };
 
+// Prepocesa todos los archivos sass a CSS
 export default () =>  {
   return gulp.src(paths.styles.scss)
     .pipe(sass().on('error', sass.logError))

@@ -10,10 +10,12 @@ const options = {
   livereload:true
 }
 
+// Servidor de desarrollo
 export function server() {
   return connect.server(options);
 }
 
+// Recarga el navegador cuando hay cambios en el html
 export function livereloadHTML() {
   return gulp.src(paths.html)
     .pipe(connect.reload());
