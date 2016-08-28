@@ -4,7 +4,7 @@ var sequence = require('run-sequence');
 var prod = require('./tasks/production');
 var del = require('del');
 
-gulp.task('default',['sequence']);
+gulp.task('default',['sequence'],prod.server);
 gulp.task('minify-files', prod.minify);
 gulp.task('copy', prod.copy);
 
