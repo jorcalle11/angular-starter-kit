@@ -7,16 +7,18 @@ import inject from './tasks/inject';
 import bower from './tasks/bower';
 import lint from './tasks/lint';
 import sass from './tasks/sass';
+import templates from './tasks/templates';
 import watch from './tasks/watch';
 
-gulp.task('default',['inject-files','lint-js','watch'],server);
+gulp.task('default',['sequence'],server);
 gulp.task('bower',bower);
 gulp.task('inject',inject);
 gulp.task('livereloadHTML',livereloadHTML);
 gulp.task('watch',watch);
 gulp.task('lint-js', lint);
 gulp.task('sass', sass);
+gulp.task('templates',templates);
 
-gulp.task('inject-files',(callback) => {
-  sequence('bower','sass','inject',callback);
+gulp.task('sequence',(callback) => {
+  sequence('bower','sass','templates','inject','lint-js','watch',callback);
 });

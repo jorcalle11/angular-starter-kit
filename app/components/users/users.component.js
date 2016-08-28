@@ -4,14 +4,14 @@
   angular
     .module('bootstrapAngular')
     .component('users', {
-      
-      template:`
-        <user-list users="$ctrl.users"></user-list>
-        <button class="btn waves-effect waves-light btn-large" ng-click="$ctrl.addUser()">
-          Agregar Usuario
-          <i class="material-icons right">send</i>
-        </button>
-      `,
+
+      template: [
+        '<user-list users="$ctrl.users"></user-list>',
+        '<button class="btn waves-effect waves-light btn-large" ng-click="$ctrl.addUser()">',
+          'Agregar Usuario',
+          '<i class="material-icons right">send</i>',
+        '</button>'
+      ].join(''),
       controller: UsersController,
       bindings: {
         users: '=',

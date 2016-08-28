@@ -11,13 +11,13 @@
       },
     });
 
-  UserItemController.$inject = [];
-  function UserItemController() {
+  UserItemController.$inject = ['MATERIALIZE'];
+  function UserItemController(MATERIALIZE) {
     var $ctrl = this;
     $ctrl.like = like;
 
     function like(user){
-      Materialize.toast('Diste like a '+ user.login.username, 4000);
+      MATERIALIZE.toast('Diste like a '+ user.login.username, 2000);
     }
 
     // $ctrl.$onInit = function() {};

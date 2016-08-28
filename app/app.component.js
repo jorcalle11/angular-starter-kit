@@ -4,10 +4,10 @@
   angular
     .module('bootstrapAngular')
     .component('root',{
-      template: `
-        <navbar-app></navbar-app>
-        <main ui-view></main>
-        <footer-app></footer-app>
-      `
+      template: [
+        '<navbar-app></navbar-app>',
+          '<main ui-view></main>',
+        '<footer-app></footer-app>'
+      ].join('')
     });
 })();

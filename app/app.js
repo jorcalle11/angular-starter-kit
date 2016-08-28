@@ -3,7 +3,8 @@
 
   angular
     .module('bootstrapAngular',[
-      'ui.router'
+      'ui.router',
+      'templates'
     ])
     .config(config);
 
